@@ -66,15 +66,29 @@ a:hover {
 .site-title {
   font-family: 'Abril Fatface', cursive;
   font-size: 75px;
+  color: #240229;
   padding: 20px;
   text-align: center;
 }
 
 .site-subtitle {
+  color: #43094B;
   font-family: 'Squada One', cursive;
   font-style: italic;
   font-size: 2em;
   text-align: center;
+}
+
+.portfolio {
+  padding: 2em;
+  height: 100vh;
+}
+
+.portfolio h2{
+  font-family: 'Squada One', cursive;
+  color: lightpink;
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
 }
 
 .img-portfolio {
