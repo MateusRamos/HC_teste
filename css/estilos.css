@@ -3,17 +3,34 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 body {
   background-image: url('https://www.colegiosantoantonio.com.br/wp-content/uploads/2019/09/plano-de-fundo.jpg');
   background-size: auto 100vh;
   font-family: 'Barlow', sans-serif;
+  height: 100vh;
 }
+
+@media (min-width: 400px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 22px;
+  }
+}
+
 header {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   height: 100vh;
   justify-content: center;
 }
+
 .menu {
   background:black;
   border: 2px solid #1D0238;
@@ -22,39 +39,45 @@ header {
   top: 0;
   width: 100vw;
 }
+
 .menu ul {
   display: flex;
   justify-content: space-around;
   margin: 0px;
 }
+
 .menu li {
   list-style: none;
   font-family: bookman;
   font-size: 20px;
 }
+
 .menu a {
   display: block;
   padding: 10px 20px;
-}
-a {
   color: #F3CCF8;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 .site-title {
   font-family: 'Abril Fatface', cursive;
   font-size: 50px;
   padding: 20px;
   text-align: center;
 }
+
 .site-subtitle {
   font-family: 'Squada One', cursive;
   font-style: italic;
+  font-size: 2em;
   text-align: center;
 }
+
 .img-portfolio {
-  height: 100px;
-  width: 100px;
+  height: 180px;
+  width: 180px;
 }
